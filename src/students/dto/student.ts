@@ -15,3 +15,8 @@ export class UpdateStudentDto {
 export class FindOneDto {
   id: number;
 }
+
+export class FindManyDto {
+  page?: number;
+  limit?: number;
+}
